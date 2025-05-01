@@ -1,0 +1,63 @@
+body{ /*styling the background, font, and centers containers*/
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.countdown-container{
+    padding: 30px 20px;
+    text-align: center;
+     width: 100%;
+    max-width: 600px;
+}
+
+
+/* styles the input field and button */
+input#seconds {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover { /*button turns grey when hovered over*/
+    background-color: #ddd;
+  }
+
+* {box-sizing:border-box}
+
+/* a container for our pictures/slideshow */
+.slideshow-container {
+  max-width: 1000px; /*sets the width, position and how much space is around the slideshow*/
+  position: relative;
+  margin: auto;
+}
+
+/* fading animation lasting 2secs when the user clicks the picture and transitions to the next */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

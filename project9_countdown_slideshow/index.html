@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown Slideshow</title>
+    <script src="JS/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<body>
+    <!--countdown container-->
+    <div class="countdown-container"></div>
+    <h1>Start your Engines!!!</h1>
+    <p>How many seconds until the race starts?</p>
+    <input id="seconds" value="" />
+    <button onclick="countdown()">Click here</button>
+    <p id="timer"></p>
+    </div>
+
+    <!-- slideshow container -->
+    <div class="slideshow-container">
+        <h3> Click on the picture below to choose which car to race! </h3>
+        <div class="mySlides fade">
+            <img src="car1.jpg" style="width:100%" onclick="plusSlides(1)">
+        </div>
+        <div class="mySlides fade">
+            <img src="car2.jpg" style="width:100%" onclick="plusSlides(1)">
+        </div>
+        <div class="mySlides fade">
+            <img src="car3.jpg" style="width:100%" onclick="plusSlides(1)">
+        </div>
+    </div>
+
+</body>
+</html>
