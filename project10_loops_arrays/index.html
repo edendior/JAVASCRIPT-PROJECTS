@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Death Note Guessing Game</title>
+  <script src="JS/main.js"></script>
+  <link rel= "stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<!--INTRODUCTION + GAME HINT-->
+<body>
+  <h1>Did you know Death Gods LOVE apples?</h1>
+  <img src="apple.png" alt="a red juicy apple" width="200" height="200">
+  <h4>Based on the riddle below, guess the magic number of 
+    apples to give Ryuk. 
+  </h4>
+  <p>
+    i'm  a number between 10 and 20.<br>
+    a prime number, kind of funny <br>
+    add my digits, get a multiple of 4.<br>
+    what number of apples will i adore? 
+  </p>
+  <!--allowing input from user and calls game function when button is clicked-->
+  <input type="number" id="userGuess" />
+  <button onclick="startGame()">guess</button>
+  <p id="result"></p>
+  <p id="previousGuesses"></p>
+
+</body>
+</html>

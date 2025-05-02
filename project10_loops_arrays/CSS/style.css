@@ -1,0 +1,47 @@
+/*imported font from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body { /*styling the background, main font, and centers everything*/
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: "Astloch", system-ui;
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+/* styles the input field and button */
+input {
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom:30px;
+  padding: 20px 10px; 
+  font-size: 18px;
+  width: 300px;
+
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover { /*button turns red when hovered over*/
+  background-color: #d00000;
+}
+
+/*different paragraph font for readability */
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px
+}
