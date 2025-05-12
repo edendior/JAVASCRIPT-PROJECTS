@@ -2,9 +2,9 @@
 Below are some small projects I've created using javascript.
 
 #Projects
-- [Pizza Menu] (https://github.com/edendior/JAVASCRIPT-PROJECTS/tree/main/Pizza_Project)
-- [Tic Tac Toe Game] (https://github.com/edendior/JAVASCRIPT-PROJECTS/tree/main/TicTacToe)
-- [Calculator] (https://github.com/edendior/JAVASCRIPT-PROJECTS/tree/main/Calculator)
+- [Pizza Menu](https://github.com/edendior/JAVASCRIPT-PROJECTS/tree/main/Pizza_Project)
+- [Tic Tac Toe Game](https://github.com/edendior/JAVASCRIPT-PROJECTS/tree/main/TicTacToe)
+- [Calculator](https://github.com/edendior/JAVASCRIPT-PROJECTS/tree/main/Calculator)
 
 #Description:
 
